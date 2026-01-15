@@ -384,7 +384,7 @@ ContentPage {
         }  
     }  
 
-    ContentSection {
+ContentSection {
         icon: "calendar_month"
         title: Translation.tr("Date")
         
@@ -406,16 +406,12 @@ ContentPage {
                 }
                 options: [
                     {
-                        displayName: Translation.tr("24h"),
-                        value: "hh:mm"
+                        displayName: Translation.tr("Day First dd/MM"),
+                        value: "ddd dd/MM"
                     },
                     {
-                        displayName: Translation.tr("12h am/pm"),
-                        value: "h:mm ap"
-                    },
-                    {
-                        displayName: Translation.tr("12h AM/PM"),
-                        value: "h:mm AP"
+                        displayName: Translation.tr("Month First MM/dd"),
+                        value: "ddd MM/dd"
                     },
                 ]
             }
